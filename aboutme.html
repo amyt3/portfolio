@@ -16,13 +16,16 @@ body {
  text-align:justify;
   } 
  
-.section {
+.section, .st {
   font-family: 'Open Sans', sans-serif;
-  font-size:24px; 
   text-transform:uppercase;
   letter-spacing:1px; } 
   
-
+.section {
+  font-size:24px; }
+  
+.st { 
+  font-size:12px; } 
   
 #main {
     margin:150px auto;
@@ -31,8 +34,8 @@ body {
   
 #icon {
   margin-bottom:30px;
- width:120px;
- height:120px;
+ width:130px;
+ height:130px;
  border-radius:50%;
   -moz-border-radius:50%;
   -webkit-border-radius:50%; }
@@ -41,8 +44,7 @@ body {
    position:fixed;
    width:200px;
   margin-left:-225px; }
-  
-
+ 
   
  .cont, #welcome {
   position:relative;
@@ -63,7 +65,8 @@ body {
   <div id="sidebar">
     
     <img id="icon" src="http://s.hswstatic.com/gif/pansies-1.jpg"> 
-    
+    <div class="st">name: </div> amy 
+
     </div>
  
   <div id="welcome">Welcome.</div>
